@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://7a3354yh6uw7"]
+
+[ext_resource type="Script" uid="uid://bb6mdsgg10s4l" path="res://scripts/world.gd" id="1_nnsk1"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_nnsk1")
+
+[node name="GreenLand" type="Area2D" parent="."]
+modulate = Color(0, 0.882353, 0, 1)
